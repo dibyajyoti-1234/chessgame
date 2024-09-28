@@ -1,0 +1,143 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form-box {
+    background-color: #1c1e1e;
+    border-radius: 10px;
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    color: #FFF;
+}
+
+.skill-level {
+    margin-bottom: 20px;
+}
+
+.skill-level p {
+    color: #FFF;
+    margin-bottom: 10px;
+}
+
+.skill-buttons {
+    display: flex;
+    justify-content: space-between;
+    gap: 6px; /* Space between buttons */
+    width: 100%;
+}
+
+.skill-btn {
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    color: #FFF;
+    border-radius: 5px;
+    cursor: pointer;
+    flex: 1; /* Make all buttons take equal width */
+    max-width: 100px; /* Set max-width to avoid overflow */
+    text-align: center;
+}
+
+.skill-btn:hover {
+    background-color: #666;
+}
+
+.signup-btn {
+    background-color: #6ba843;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.signup-btn:hover {
+    background-color: #5a9337;
+}
+
+.social-signup {
+    margin-top: 20px;
+}
+
+.social-signup p {
+    color: #FFF;
+}
+
+.apple-btn, .google-btn, .facebook-btn {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    color: #FFF;
+}
+
+.apple-btn {
+    background-color: black;
+}
+
+.google-btn {
+    background-color: #db4437;
+}
+
+.facebook-btn {
+    background-color: #4267B2;
+}
+
+.apple-btn:hover, .google-btn:hover, .facebook-btn:hover {
+    opacity: 0.9;
+}
+
+a {
+    color: #6ba843;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
